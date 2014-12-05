@@ -72,7 +72,7 @@ sub data {
     } elsif ($char =~ /[ -~]/) {
       print colored($char,'bright_white');
     } else {
-      print colored(unpack('H*',$char),'bright_cyan');        
+      print colored('<'.unpack('H*',$char).'>','bright_cyan');        
     }
   }
 }
