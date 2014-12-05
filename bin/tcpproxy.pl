@@ -29,10 +29,11 @@ sub out {
 }
 
 our %ord = (qw(
-    1 NUL
-    2 SOH
-    3 STX
-    4 ETX
+    0 NUL
+    1 SOH
+    2 STX
+    3 ETX
+    4 EOT
     5 ENQ
     6 ACK
     7 BEL
@@ -72,7 +73,7 @@ sub data {
     } elsif ($char =~ /[ -~]/) {
       print colored($char,'bright_white');
     } else {
-      print colored('<'.unpack('H*',$char).'>','bright_cyan');        
+      print colored('<'.unpack('H*',$char).'>', 'bright_cyan');        
     }
   }
 }
