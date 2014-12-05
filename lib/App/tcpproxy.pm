@@ -14,7 +14,7 @@ __END__
 
 =head1 DESCRIPTION
 
-See L<tcpproxy>.
+See L<tcpproxy.pl>.
 
 =head1 SUPPORT
 

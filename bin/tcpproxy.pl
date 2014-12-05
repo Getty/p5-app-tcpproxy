@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# PODNAME: aqhive
-# ABSTRACT: The AquariumHive daemon [IN DEVELOPMENT]
+# PODNAME: tcpproxy.pl
+# ABSTRACT: Simple TCP proxy for debugging connections
 
 use strict;
 use warnings;
